@@ -2,7 +2,7 @@ import DataTable from './DataTable/DataTable';
 
 export { defaultThemes, createTheme } from './DataTable/themes';
 export * from './DataTable/constants';
-export type {
+export {
 	TableProps,
 	TableProps as IDataTableProps, // this is for backwards compat with v6
 	TableColumn,
